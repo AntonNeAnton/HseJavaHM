@@ -1,4 +1,4 @@
-Alexandr Kychyk          wasOnLesson 6
+Alexandr Kychyk          wasNotOnLesson -
 Vitya Dubovik          wasNotOnLesson -
 Anton Poklonsky          wasNotOnLesson -
 Abiev Marik          wasNotOnLesson -
@@ -6,6 +6,6 @@ Spiridonov Dima          wasNotOnLesson -
 Vorobiev Artem          wasNotOnLesson -
 Serikov Artem          wasNotOnLesson -
 Mitrofanov Arseny          wasNotOnLesson -
-Semenov Denis          wasOnLesson 10
+Semenov Denis          wasOnLesson 7
 Grey Vova          wasNotOnLesson -
 Fillipovich Margarita          wasNotOnLesson -

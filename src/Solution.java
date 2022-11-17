@@ -27,6 +27,7 @@ public class Solution {
             student.onLesson = true;
             student.alreadyAnswer = true;
             student.mark = 2 + (int) (Math.random() * 10);
+            System.out.println("Nice, your mark is " + student.mark);
         }
     }
 
@@ -100,6 +101,7 @@ public class Solution {
             switch (curCommand) {
                 case "/e" -> {
                     putGroupInFile(groupList);
+                    printGroupInConsole(groupList);
                     return;
                 }
                 case "/r" -> {
