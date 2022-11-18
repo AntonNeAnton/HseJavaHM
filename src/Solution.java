@@ -47,7 +47,7 @@ public class Solution {
     }
 
     static void putGroupInFile(ArrayList<Student> groupList) {
-        Path ouputPath = Path.of("/Users/antonpoklonsky/Desktop/JavaProjects/HSE/SecHM/src/outputText.txt");
+        Path ouputPath = Path.of("./src/outputText.txt");
         File ouput = new File(String.valueOf(ouputPath));
         try (FileWriter fw = new FileWriter(ouput);
              BufferedWriter bw = new BufferedWriter(fw)) {

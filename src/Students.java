@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Students {
     static ArrayList<Student> makeGroup() {
         ArrayList<Student> groupList = new ArrayList<>();
-        File group = new File("/Users/antonpoklonsky/Desktop/JavaProjects/HSE/SecHM/src/group.txt");
+        File group = new File("./src/group.txt");
         try (FileReader fr = new FileReader(group);
              BufferedReader br = new BufferedReader(fr)) {
             while (br.ready()) {
